@@ -1,0 +1,2 @@
+The Event Loop is a mechanism that allows a callback function to be scheduled for execution in the future. In Node.js, this workflow structure 
+enables the use of only one processing thread while achieving high execution efficiency.

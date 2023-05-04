@@ -1,0 +1,12 @@
+The Node.js platform is known for being single-threaded, but it can still execute multiple tasks in parallel using a thread pool. While the 
+main thread of Node.js is single-threaded, the thread pool is a way to allow Node.js to execute asynchronous tasks in parallel, freeing the 
+main thread to continue executing other tasks, instead of being blocked waiting for the completion of the asynchronous tasks.
+
+In summary, the use of the thread pool does not contradict the idea that Node.js is single-threaded, but instead allows it to execute 
+asynchronous tasks in parallel while maintaining its single-threaded nature.
+
+The main single thread runs the following tasks in this sequence:
+1. The program initializes
+2. Requires all the modules
+3. Register the callback functions
+4. Start the event Loop
