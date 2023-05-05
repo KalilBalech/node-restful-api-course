@@ -9,3 +9,6 @@ Steps:
 8. install nodemon devDependencie - npm install nodemon --save-dev (-dev tells node that this package is just for development mode, i.e. in
    production mode it doesnt need to be installed)
 9. in package.json, creates the three basic npm run scripts (start, dev and prod)
+10. create the basic route, which url starts with "/api/v1". This is because we are developing an api and it is the first version. When we update
+    the api version we just need to change this path, while the last version path we keep saved
+11. The routes are created in a separated file 
