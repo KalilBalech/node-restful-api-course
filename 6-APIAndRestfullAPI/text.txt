@@ -1,0 +1,36 @@
+what is an api?
+
+An API, or Application Programming Interface, is a set of protocols, tools, and standards for building software applications. APIs define how 
+different software components should interact with each other, allowing developers to build complex applications by using pre-existing code and 
+services.
+
+APIs can be used to connect different applications, databases, and services, allowing them to share data and functionality. For example, an 
+e-commerce website might use an API to connect to a payment gateway service in order to process payments securely. Similarly, a mobile 
+application might use an API to access data stored in a cloud-based database or to perform complex calculations on a remote server.
+
+APIs can be accessed through different means, such as using a programming language's built-in HTTP client, or by using specialized software 
+tools that can communicate with APIs. In addition, many APIs are available publicly, meaning that developers can build applications that use 
+them without having to negotiate special agreements or permissions. Overall, APIs play a crucial role in enabling developers to build complex 
+software systems by providing a standardized way to communicate with other software components.
+
+What is the difference between an api and a restfull api?
+
+An API (Application Programming Interface) is a general term that refers to any set of protocols, tools, and standards for building software 
+applications. A RESTful API, on the other hand, is a specific type of API that uses the HTTP protocol to implement the principles of REST 
+(Representational State Transfer) architecture.
+
+The main difference between a generic API and a RESTful API is in how they handle data. A RESTful API organizes data into resources that can 
+be accessed and manipulated using standard HTTP methods, such as GET, POST, PUT, and DELETE. These resources are identified by unique URIs 
+(Uniform Resource Identifiers), and the data is represented using standard formats such as JSON or XML. RESTful APIs are designed to be stateless, 
+meaning that each request contains all the information necessary for the server to understand and process it.
+
+In contrast, a generic API may use any number of protocols or data formats to handle requests and responses. For example, an API might use SOAP 
+(Simple Object Access Protocol) to define the structure of messages exchanged between the client and server. While SOAP APIs can be powerful and 
+flexible, they are generally considered to be more complex and less scalable than RESTful APIs.
+
+Overall, the main difference between an API and a RESTful API is that the latter is a specific implementation of the former, based on the 
+principles of REST architecture and using the HTTP protocol to handle data.
+
+
+
+

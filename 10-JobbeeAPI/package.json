@@ -1,0 +1,15 @@
+{
+  "name": "10-jobbeeapi",
+  "version": "1.0.0",
+  "description": "jobbee api to learn about api on nodejs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kalil Balech",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2"
+  }
+}

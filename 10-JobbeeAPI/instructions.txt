@@ -1,0 +1,8 @@
+Steps:
+1. first create the project folder - 10-JobbeeAPI
+2. run npm init to set the package.json folder with its metadata
+3. create app.js file to run the server
+4. create basic express and dotenv template on js file
+5. create a config folder with .env file to stores the environment variables - PORT and NODE_ENV
+6. run npm install express dotenv --save - --save flag writes express and dotenv on package.json dependencies
+7. start the server to test the basic template
